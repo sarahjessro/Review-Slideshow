@@ -1,0 +1,94 @@
+.navbar {
+    font-family: "Edu AU VIC WA NT Hand";
+    background-color: rgb(65, 97, 155);
+    padding: 10px;
+    
+}
+
+a {
+    margin:4px;
+    text-decoration:none;
+    color:white;
+    font-size: 20px;
+}
+
+a:hover  {
+  color:rgb(197, 226, 242);
+  cursor:pointer;
+}
+
+.review-title {
+    font-family: "Poppins", sans-serif;;
+    text-align: center;
+    padding-top: 5px;
+    color:rgb(65, 97, 155);
+}
+
+.review-container {
+    width:400px;
+    height:400px;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-review {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+    color:rgb(224, 238, 245)
+
+}
+
+.review-description {
+    font-family: "Poppins", sans-serif;
+    color:rgb(197, 226, 242);
+    font-size: 20px;
+    text-align: center;
+}
+
+.review-photo {
+    border-radius: 50%;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button {
+    margin: 5px;
+    border-color: rgb(65, 97, 155);
+    background-color: rgb(65, 97, 155);
+    border-radius: 3px;
+    font-family: "Poppins";
+    color:rgb(197, 226, 242);
+   
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.review-photo {
+    width:120px;
+    height:120px;
+    
+}
+
+.img {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.review-contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
